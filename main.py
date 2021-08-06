@@ -32,8 +32,8 @@ async def start_handler(_, event: Message):
         "**Developer:** @AbirHasan2005\n"
         "**Demo Bot:** @AHListBot",
         reply_markup=InlineKeyboardMarkup([
-            [InlineKeyboardButton("Support Group", url="https://t.me/DevsZone"),
-             InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")],
+            [InlineKeyboardButton("Support Group", url="https://t.me/ibyomkesh2"),
+             InlineKeyboardButton("Bots Channel", url="https://t.me/hoichoidotme")],
             [InlineKeyboardButton("Developer - @AbirHasan2005")],
             [InlineKeyboardButton("Search Inline", switch_inline_query_current_chat=""), InlineKeyboardButton("Go Inline", switch_inline_query="")]
         ])
@@ -56,8 +56,8 @@ async def inline_handlers(_, event: InlineQuery):
                 ),
                 reply_markup=InlineKeyboardMarkup([
                     [InlineKeyboardButton("Search Here", switch_inline_query_current_chat="")],
-                    [InlineKeyboardButton("Support Group", url="https://t.me/DevsZone"),
-                     InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")],
+                    [InlineKeyboardButton("Support Group", url="https://t.me/ibyomkesh2"),
+                     InlineKeyboardButton("Bots Channel", url="https://t.me/hoichoidotme")],
                     [InlineKeyboardButton("Developer - @AbirHasan2005", url="https://t.me/AbirHasan2005")]
                 ])
             )
